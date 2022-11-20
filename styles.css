@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');\*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color: #979797;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+}
+h1{
+    padding: 30px;
+}
+h1 a{
+    color: #ffffff;
+    
+}
+#shipmentlist{
+    padding: 30px;
+    width: 220px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:flex-start;
+    align-items: center;
+    
+}
+#btns{
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+    flex-direction: column;
+    
+}
+#shipment{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+#btns p{
+    padding:5px 20px 5px 5px;
+    border-radius: 20px;
+    background-color: #7a7979;
+    cursor: pointer;
+    margin-bottom: 2px;
+    font-weight: 600;
+    /* color: #979797; */
+}
+#mainDiv{
+    width: 800px;
+    height: 400px;
+    background-color: #5F6472;
+    padding: 30px;
+    border-radius: 30px;
+}
+#mainDiv p{
+    color:#b1b1b1;
+}
+#mainDiv p.boxvalue{
+    width: 200px;
+    height: 20px;
+    padding: 5px 5px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    color: #000000;
+    font-weight: 600;
+}
+#mainDiv p.txtColor{
+    color: #ffffff;
+    font-size: 20px;
+}
+.cargoP{
+    font-size: 24px;
+}
+.clickedBtn{
+    color: #ffffff;
+}
+
+
+
+
+
+
+
+
+
